@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border {
+    margin: 0 auto;
+    border-bottom:solid 1px black;
+    width: 100px;
+}
+span {
+    color: #37b44c;
+}
+.right{
+    margin: 0 40%;
+}
+
+@media only screen and (max-width: 800px) {
+    .right{
+        margin: 0 25%;
+    }
+
+    .column {
+        margin: 0 9px;
+    }
+}
